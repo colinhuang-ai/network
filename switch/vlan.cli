@@ -1,0 +1,9 @@
+enable
+configure terminal
+vlan 10
+ name Admin
+vlan 20
+ name Guest
+vlan 30
+ name Staff
+exit
