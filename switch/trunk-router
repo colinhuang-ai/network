@@ -1,0 +1,4 @@
+! Giả sử cổng GigabitEthernet 0/1 trên Switch nối tới Router
+interface g0/1
+ switchport mode trunk
+exit
