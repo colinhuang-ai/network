@@ -1,0 +1,17 @@
+! Cổng nối PC Lễ tân/Quản lý (VLAN 10)
+interface range fa0/1-5
+ switchport mode access
+ switchport access vlan 10
+exit
+
+! Cổng nối WiFi/Thiết bị Khách (VLAN 20)
+interface range fa0/6-15
+ switchport mode access
+ switchport access vlan 20
+exit
+
+! Cổng nối Thiết bị Nhân viên (VLAN 30)
+interface range fa0/16-24
+ switchport mode access
+ switchport access vlan 30
+exit
